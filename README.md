@@ -132,11 +132,11 @@ This application requires three fine-tuned PyTorch model weights. Due to their l
 
 | Model                    | File Name                      | Download Link |
 |--------------------------|--------------------------------|----------------|
-| Gender Prediction Model  | `fine_tuned_gender_model.pth`  | [Download](#https://drive.google.com/drive/folders/12GnZIXySo3p3KtZfxs9XUkd-WLXI7fAh?usp=sharing)  |
-| Age Prediction Model     | `fine_tuned_age_model.pth`     | [Download](#https://drive.google.com/drive/folders/1z3bun3mhV9AAC0FsfDibIX0WnS2h3GIu?usp=sharing)  |
-| Emotion Recognition Model| `emotion_model_fine_tuned.pth` | [Download](#https://drive.google.com/drive/folders/1AcNPYxRBX-YTpB38tjNcYQ73xyn66jN6?usp=sharing)  |
+| Gender Prediction Model  | `fine_tuned_gender_model.pth`  | [Download](https://drive.google.com/drive/folders/12GnZIXySo3p3KtZfxs9XUkd-WLXI7fAh?usp=sharing)  |
+| Age Prediction Model     | `fine_tuned_age_model.pth`     | [Download](https://drive.google.com/drive/folders/1z3bun3mhV9AAC0FsfDibIX0WnS2h3GIu?usp=sharing)  |
+| Emotion Recognition Model| `emotion_model_fine_tuned.pth` | [Download](https://drive.google.com/drive/folders/1AcNPYxRBX-YTpB38tjNcYQ73xyn66jN6?usp=sharing)  |
 
-> 🔔 **Note**: These models must be placed in the **same directory** as `app.py` (or update the path accordingly in the code).
+> 🔔 **Note**: These models must be placed in the **same directory** as `FacePredictor_app.py` (or update the path accordingly in the code).
 	
 	
 ## Acknowledgments
