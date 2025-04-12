@@ -49,16 +49,19 @@ This application uses three pre-trained and fine-tuned models:
 - **Base Model**: EfficientNet-B0
 - **Fine-Tuned For**: Gender prediction (Male/Female)
 - **Layers Modified**: Classifier layers were replaced and fine-tuned to predict gender from facial features.
+- **Dataset**: [UTKFace dataset](https://susanqq.github.io/UTKFace/)
 
 ### 2. **Age Model**:
 - **Base Model**: VGG19
 - **Fine-Tuned For**: Age prediction (regression task to predict the exact age)
 - **Layers Modified**: The final classifier layers were replaced with a custom architecture to predict the age.
+- **Dataset**: [UTKFace dataset](https://susanqq.github.io/UTKFace/)
 
 ### 3. **Emotion Model**:
 - **Base Model**: VGG19
 - **Fine-Tuned For**: Emotion classification (7 classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral)
 - **Layers Modified**: Classifier layers were modified to predict the emotions from the facial features.
+- **Dataset**: [FER2013 on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)
 
 The models are fine-tuned using pre-trained weights and are loaded into the application for inference.
 
