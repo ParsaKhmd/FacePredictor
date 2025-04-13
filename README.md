@@ -83,7 +83,7 @@ To run this application, the following Python libraries are required:
 You can install the necessary dependencies using pip:
 
     
-      pip install streamlit torch torchvision mediapipe opencv-python Pillow nump
+      pip install streamlit torch torchvision mediapipe opencv-python Pillow nump matplotlib
       
 ## How to Use
 
